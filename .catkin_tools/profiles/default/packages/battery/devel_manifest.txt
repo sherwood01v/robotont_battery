@@ -1,0 +1,7 @@
+battery
+/home/administrator/robotont_battery/devel/.private/battery/cmake.lock /home/administrator/robotont_battery/devel/./cmake.lock
+/home/administrator/robotont_battery/devel/.private/battery/lib/pkgconfig/battery.pc /home/administrator/robotont_battery/devel/lib/pkgconfig/battery.pc
+/home/administrator/robotont_battery/devel/.private/battery/lib/battery/cmake.lock /home/administrator/robotont_battery/devel/lib/battery/cmake.lock
+/home/administrator/robotont_battery/devel/.private/battery/lib/battery/arduino_listener.py /home/administrator/robotont_battery/devel/lib/battery/arduino_listener.py
+/home/administrator/robotont_battery/devel/.private/battery/share/battery/cmake/batteryConfig.cmake /home/administrator/robotont_battery/devel/share/battery/cmake/batteryConfig.cmake
+/home/administrator/robotont_battery/devel/.private/battery/share/battery/cmake/batteryConfig-version.cmake /home/administrator/robotont_battery/devel/share/battery/cmake/batteryConfig-version.cmake

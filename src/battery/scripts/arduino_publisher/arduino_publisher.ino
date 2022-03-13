@@ -20,7 +20,7 @@ void setup() {
 }
 
 void loop() {
-  // read the value from the sensor
+  // read the value from the sensor:
   sensorValues[0] = analogRead(sensorPins[0])/814.0*3.74;
   sensorValues[1] = analogRead(sensorPins[1])/947.0*7.57;
   sensorValues[2] = analogRead(sensorPins[2])/950.0*11.36;

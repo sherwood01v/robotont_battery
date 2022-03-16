@@ -13,16 +13,16 @@ def callback(data):
     current_time = rospy.get_rostime()
     battery.header.stamp.secs = current_time.secs
     battery.header.stamp.nsecs = current_time.nsecs
-    battery.voltage = values[3]
+    battery.voltage = values[0] + values[1] + values[2] + values[3]
     battery.current = (NaN)
     battery.charge = (NaN)
     battery.capacity = (NaN)
     battery.temperature = (NaN)
     battery.design_capacity = (3.8)
-    battery.percentage = (values[3]-14.8)/2
+    battery.percentage = (battery.voltage - 14.8)/2
     battery.power_supply_technology = POWER_SUPPLY_TECHNOLOGY_LIPO
     battery.present = True
-    battery.cell_voltage = [values[4], values[5], values[6], values[7]]
+    battery.cell_voltage = [values[0], values[1], values[2], values[3]]
     rospy.loginfo(battery)
     pub_batterystate.publish(battery)
 
